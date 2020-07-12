@@ -1,4 +1,12 @@
 * {
-    color: green;
-    font-family: monospace;
+    font-family: 'Open Sans', sans-serif;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.userList {
+    display: flex;
 }
