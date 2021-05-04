@@ -9,6 +9,7 @@ import {createStore} from 'redux';
 import allReducers from './reducers';
 import {Provider} from 'react-redux';
 import {useSelector} from 'react-redux';
+import Game from './tickTackToe/Game';
 
 // redux store
 let myStore = createStore(
@@ -60,4 +61,11 @@ class App extends React.Component {
 	}
 }
 
-ReatDOM.render(<App/>, document.getElementById('root'));
+ReatDOM.render(
+	
+	<Provider store={myStore}>
+		<Game/>
+	</Provider>,
+	
+	document.getElementById('root')
+);
