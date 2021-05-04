@@ -1,6 +1,12 @@
 * {
+	color: #4a4a4a;
     font-family: 'Open Sans', sans-serif;
+	font-size: 15pt;
     margin: 5px;
+}
+
+body {
+    background-color: #c3df9a;
 }
 
 a {
